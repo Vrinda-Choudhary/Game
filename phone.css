@@ -22,7 +22,7 @@ body{
 
 
 #title{
-    width: 243px;
+    width: 159px;
     margin: auto;
 }
 
@@ -30,10 +30,10 @@ body{
     color:#3D3838;
     font: normal normal normal 52px/50px Dimbo;
     text-align: center;
-    font-size: 49px;
+    font-size: 29px;
     padding-top: 5%;
     padding-bottom: 0px;
-    line-height: 60px;
+    line-height: 37px;
     
 }
 
@@ -43,10 +43,11 @@ body{
     justify-content: center;
     align-items: center;
     width: 64%;
-    height: 442px;
-    margin: auto;
-
+    height: 235px;
+    margin: 67px auto;
 }
+
+
 
 #video video{
     width: 346px;
