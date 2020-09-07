@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="import" href="dimbo regular.ttf">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 1106px)" href="/phone.css">
+    <title>My First Game</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="title">
+            <h1>Click a picture of your meal</h1>
+        </div>
+
+        <div id="video">
+            <video id="player" controls autoplay></video>
+        </div>
+
+        <div id="camera-container">
+            <div id="capture">
+                <img src="./images/camera.svg" alt="" srcset="">
+            </div>
+                <!--  <button id="capture">Capture</button> -->
+        </div>
+        <div id="dog">
+
+        </div>
+
+        <div id="canvas-container">
+              <canvas id="canvas" width=320 height=240></canvas>
+        </div>
+
+      <div id="startagain">
+          <img src="./images/watermelon.png" alt="" srcset="" id = "watermelon">
+         <h2 id="startover-heading"> Start Over</h2>
+          <img src="./images/leafy-green.png" alt="" srcset="" id = "leafy-green">
+      </div>
+    </div>
+     <script src="index.js"></script>
+</body>
+
+</html>

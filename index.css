@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+    padding:0px;
+    
+}
+
+@font-face {
+    font-family: 'dimbo';
+    src: url('dimbo\ regular.ttf');
+    size: 52px;
+    
+}
+#container{
+    background-color: #EFDD38;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+}
+
+#title h1{
+    color:#3D3838;
+    font: normal normal normal 52px/50px Dimbo;
+    text-align: center;
+    font-size: 144px;
+    padding-top: 5%;
+    padding-bottom: 0px;
+    line-height: 145px;
+    
+}
+
+#video{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64%;
+    height: 668px;
+    margin: auto;
+
+}
+
+#video video{
+    width: 533px;
+    height: 78%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 5;
+}
+#camera-container{
+    display: block;
+    width: 100vh;
+    margin: auto;
+    margin-top: 1%;
+    width: 207px;
+}
+#capture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CF2C42;
+    border-radius:100%;
+  
+ 
+}
+
+#capture img{
+    height: 100px;
+    padding: 14% 7%;
+}
+
+#canvas-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 149px;
+}
+
+
+
+#canvas{
+   
+    width: 533px;
+    height: 78%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+
